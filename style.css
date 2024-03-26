@@ -211,17 +211,19 @@ nav li{
   height: 300px;
 }
 .intro_left{
-  width: 400px;
+  width: 300px;
   position: absolute;
   left:0px;
-  padding: 90px;
-  margin: 50px;
+  padding: 50px;
+  margin: 30px;
+ flex:1;
 }
 .intro_right{
  position:absolute;
  right:10px;
 width:50%;
 margin:20px;
+flex:2;
 }
 #Services div, #Portfolio .all, #Testimonial ul{
   display:flex;
