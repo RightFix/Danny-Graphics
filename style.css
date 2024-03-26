@@ -223,6 +223,7 @@ nav li{
  right:10px;
 width:50%;
 margin:20px;
+height:200px;
 flex:2;
 }
 #Services div, #Portfolio .all, #Testimonial ul{
@@ -266,5 +267,8 @@ h2 {
 }
 #Contact img{
  width: 60px;
+}
+#Contact a img{
+ width:20px;
 }
 }
