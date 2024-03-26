@@ -212,6 +212,10 @@ font-size:1em;
   padding: 90px;
   margin: 50px;
 }
+.intro_right{
+ position:absolute;
+ right:0px;
+}
 #Services div, #Portfolio .all, #Testimonial ul{
   display:flex;
  padding:30px;
