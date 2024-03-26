@@ -110,6 +110,7 @@ body{
 }
 #Portfolio .pic, #Portfolio .pics{
   width:60%;
+  height: 200px;
 }
 #Portfolio img{
   width:100%;
