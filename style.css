@@ -218,8 +218,9 @@ nav li{
 }
 .intro_right{
  position:absolute;
- right:0px;
+ right:10px;
 width:50%;
+margin:20px;
 }
 #Services div, #Portfolio .all, #Testimonial ul{
   display:flex;
