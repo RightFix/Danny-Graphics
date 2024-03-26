@@ -256,4 +256,7 @@ form, .founder{
 h2 {
  font-size:30px;
 }
+#Contact img, #Testimonial img{
+ width: 30px;
+}
 }
