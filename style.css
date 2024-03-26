@@ -231,7 +231,7 @@ nav li{
   box-shadow: 0px 0px 30px #120d29;
 }
 #Portfolio, #Services, #Testimonial{
- font-size: 5px;
+ font-size: 15px;
 }
 #Portfolio article{
   display:inline-block
