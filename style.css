@@ -230,6 +230,9 @@ font-size:1em;
 #Services article, #Portfolio article, #Testimonial li{
   margin: 20px 50px;
 }
+#Testimonial li{
+ display:inline-block;
+}
 .info{
   margin:0px 100px;
   height: 300px;
