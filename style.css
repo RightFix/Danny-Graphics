@@ -245,6 +245,7 @@ nav li{
 block-quote{
  padding:10px;
 }
+
 .info{
   margin:0px 100px;
   height: 300px;
@@ -252,7 +253,10 @@ block-quote{
 form, .founder{
   width:50%;
 }
-#found{ 
- width:250px;
+#found, #Testimonial img{ 
+ width:100px;
+}
+h2 {
+ font-size:15px;
 }
 }
