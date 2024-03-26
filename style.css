@@ -239,6 +239,10 @@ font-size:1em
 #Testimonial li, #Testimonial div{
  display:inline-block;
 }
+block-quote{
+ font-size: 20px;
+ padding:10px;
+}
 .info{
   margin:0px 100px;
   height: 300px;
