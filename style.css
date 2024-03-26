@@ -189,7 +189,6 @@ footer{
 @media(min-width:750px){
 body{
  width:100%;
-font-size:0.5em;
 }
   .top_logo{
   width:120px;
@@ -199,7 +198,8 @@ font-size:0.5em;
   width:50%;
   float:right;
   margin: auto;
-}
+  text-align:center;
+}0
 .intro{
   display: flex;
   margin:100px 300px;
@@ -231,7 +231,7 @@ font-size:0.5em;
 #Services article, #Portfolio article, #Testimonial li{
   margin: 20px 50px;
 }
-#Testimonial li{
+#Testimonial li #Testimonial div{
  display:inline-block;
 }
 .info{
