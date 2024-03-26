@@ -234,8 +234,14 @@ font-size:1em
 #Portfolio{
  height: 800px;
 }
+#Portfolio, #Services, #Testimonial{
+ font-size: 10px;
+}
+#Portfolio article{
+  display:inline-block
+}
 #Services article, #Portfolio article, #Testimonial li{
-  margin: 20px 30px;
+  margin: 20px 40px;
 }
 #Testimonial li, #Testimonial div{
  display:inline-block;
