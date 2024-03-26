@@ -1,0 +1,231 @@
+/* Both */
+
+*{
+  margin:0 auto;
+  padding: 0 auto;
+}
+body{
+  background: #f2f2f2;
+  font-size: 1em;
+}
+
+.top{
+ background: white;
+ border:1px black solid;
+ border-radius: px;
+ margin-top: 15px;
+ padding: 10px;
+ height:100px;
+}
+
+.top_logo{
+  width:120px;
+  float:left;
+  position:absolute;
+}
+.top_right{
+  width:75%;
+  float:right;
+  margin: auto;
+  font-size: 0.8em;
+}
+.top_right ul{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  display: flex;
+  position: absolute;
+  right:20px;
+}
+.top_right li{
+  display:inline;
+  padding:5px 5px;
+  border:2px solid black;
+  border-radius: 5px;
+  margin:5px 2px;
+  right:1px;
+}
+.top_right li a{
+  text-decoration: none;
+  color:black;
+}
+.intro_right, .logo_design div, .poster_design div{
+  width:90%;
+  margin:40px auto;
+  height:410px;
+  border-radius: 10px;
+  padding: 0px 0px 0px 0px;
+  box-shadow: 0px 0px 30px #120d29;
+}
+@keyframes backgroundchange{
+  0%{background-image: url('pics/poster_design15.jpg');}
+  5%{background-image: url('pics/poster_design8.jpg');}
+  10%{background-image: url('pics/poster_design11.jpg');}
+  15%{background-image: url('pics/poster_design12.jpg');}
+  20%{background-image: url('pics/poster_design.jpg');}
+  25%{background-image: url('pics/poster_design13.jpg');}
+  30%{background-image: url('pics/poster_design14.jpg');}
+  35%{background-image: url('pics/poster_design16.jpg');}
+  40%{background-image: url('pics/poster_design17.jpg');}
+  45%{background-image: url('pics/logo_design1.jpg');}
+  50%{background-image: url('pics/poster_design18.jpg');}
+  55%{background-image: url('pics/poster_design19.jpg');}
+  60%{background-image: url('pics/poster_design2.jpg');}
+  65%{background-image: url('pics/poster_design5.jpg');}
+  70%{background-image: url('pics/poster_design4.jpg');}
+  75%{background-image: url('pics/logo_design3.jpg');}
+  80%{background-image: url('pics/poster_design10.jpg');}
+  85%{background-image: url('pics/logo_design2.jpg');}
+  90%{background-image: url('pics/poster_design21.jpg');}
+  95%{background-image: url('pics/poster_design20.jpg');}
+  100%{background-image: url('pics/poster_design2.jpg');}
+}
+.intro_right{
+  animation-name: backgroundchange;
+  animation-iteration-count: infinite;
+  transition-timing-function: ease-in;
+  animation-duration: 4000s ;
+  animation-delay: 0s;
+  animation-direction:;
+  background-image: url('pics/poster_design15.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.intro_left{
+  width:90%;
+  margin-bottom:20px;
+  padding:10px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 600;
+  font-size: em;
+}
+#Services, #Portfolio, #Testimonial{
+  margin:30px 10px;
+}
+#Services p, #Portfolio p{
+  margin:20px auto;
+}
+#Portfolio .pic, #Portfolio .pics{
+  width:60%;
+}
+#Portfolio img{
+  width:100%;
+  height:410px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px #120d29;
+}
+#Testimonial li{
+  display:flex;
+  margin: 30px auto;
+  text-align: ;
+}
+cite{
+  text-align: center;
+}
+blockquote{
+  padding: 15px 15px;
+}
+.info{
+  display:flex;
+  height:300px;
+  margin: 30px 10px;
+  padding: 0px;
+}
+#Contact input{
+  margin: 10px auto;
+  
+}
+#Contact img{
+  width: 150px;
+  border-radius:5px;
+}
+ #Testimonial img{
+  width: 150px;
+  margin:5px 0px;
+  border-radius: 5px;
+}
+#Contact p{
+  text-align:;
+  font-style: italic;
+  font-size: 1.1em;
+  text-decoration: bold;
+}
+.founder{
+  margin:20px;
+  text-align: left;
+}
+#Contact h2{
+ margin: 20px;
+}
+footer{
+  height:120px;
+  background-color: ;
+  margin: 5% 20% 2% 20%;
+}
+#link img{
+  width:30px;
+}
+#link{
+  margin:0px;
+  padding:0px 0px;
+  display: flex;
+}
+#Services div, #Portfolio .all {
+  display:flex;
+  margin:10px;
+  padding:5px;
+  text-align: center;
+}
+#Services article, #Portfolio article {
+  margin: 20px 5px;
+  
+}
+/* Desktop */
+@media(min-width:1240px){
+  .top_logo{
+  width:120px;
+  float:left;
+}
+.top_right{
+  width:50%;
+  float:right;
+  margin: auto;
+}
+.intro{
+  display: flex;
+  margin:100px 300px;
+}
+.intro_left{
+  width: 400px;
+  position: relative;
+  left:0px;
+  padding: 90px;
+  margin: 50px;
+}
+#Services div, #Portfolio .all, #Testimonial ul{
+  display:flex;
+ padding:30px;
+}
+#Portfolio img{
+  width:100%;
+  height:410px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px #120d29;
+}
+
+#Services article, #Portfolio article, #Testimonial li{
+  margin: 20px 50px;
+}
+.info{
+  margin:0px 100px;
+  height: 300px;
+}
+form, .founder{
+  width:50%;
+}
+#found{ 
+ width:250px;
+}
+}
