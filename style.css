@@ -207,11 +207,11 @@ nav li{
 
 .intro{
   display: flex;
-  margin:100px 300px;
+  margin: 50px 300px;
 }
 .intro_left{
   width: 400px;
-  position: relative;
+  position: absolute;
   left:0px;
   padding: 90px;
   margin: 50px;
@@ -258,7 +258,10 @@ form, .founder{
 h2 {
  font-size:30px;
 }
-#Contact img, #Testimonial img{
+ #Testimonial img{
  width: 30px;
+}
+Contact img{
+ width: 60px;
 }
 }
