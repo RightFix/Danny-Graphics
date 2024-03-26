@@ -223,16 +223,12 @@ nav li{
 #Services div, #Portfolio .all, #Testimonial ul{
   display:flex;
  padding:15px;
-font-size:1em
 }
 #Portfolio img{
   width:100%;
-  height:410px;
+  height:px;
   border-radius: 10px;
   box-shadow: 0px 0px 30px #120d29;
-}
-#Portfolio{
- height: 800px;
 }
 #Portfolio, #Services, #Testimonial{
  font-size: 10px;
