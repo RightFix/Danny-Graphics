@@ -207,7 +207,8 @@ nav li{
 
 .intro{
   display: flex;
-  margin: 50px 300px;
+  margin: 50px ;
+  height: 300px;
 }
 .intro_left{
   width: 400px;
@@ -261,7 +262,7 @@ h2 {
  #Testimonial img{
  width: 30px;
 }
-Contact img{
+#Contact img{
  width: 60px;
 }
 }
