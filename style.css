@@ -221,7 +221,7 @@ nav li{
 }
 #Services div, #Portfolio .all, #Testimonial ul{
   display:flex;
- padding:30px;
+ padding:15px;
 font-size:1em
 }
 #Portfolio img{
@@ -234,12 +234,10 @@ font-size:1em
  height: 800px;
 }
 #Services article, #Portfolio article, #Testimonial li{
-  margin: 20px 50px;
-  font-size:1em;
+  margin: 20px 30px;
 }
 #Testimonial li, #Testimonial div{
  display:inline-block;
- font-size:1em;
 }
 .info{
   margin:0px 100px;
