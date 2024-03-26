@@ -199,7 +199,11 @@ body{
   float:right;
   margin: auto;
   text-align:center;
-}0
+}
+nav li{
+ padding:5px;
+}
+
 .intro{
   display: flex;
   margin:100px 300px;
@@ -231,7 +235,7 @@ body{
 #Services article, #Portfolio article, #Testimonial li{
   margin: 20px 50px;
 }
-#Testimonial li #Testimonial div{
+#Testimonial li, #Testimonial div{
  display:inline-block;
 }
 .info{
